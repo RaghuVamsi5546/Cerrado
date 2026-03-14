@@ -1,0 +1,23 @@
+{
+    "incident_summary": "Memory spike causing potential slowdown",
+    "root_cause": "High memory usage detected",
+    "causal_chain": [
+        "CPU=47.1 MEMORY=99.7 DISK=76.7",
+        "CPU=44.6 MEMORY=100.0 DISK=78.2",
+        "CPU=43.0 MEMORY=99.9 DISK=80.5",
+        "CPU=52.4 MEMORY=99.9 DISK=83.5",
+        "CPU=56.5 MEMORY=99.2 DISK=83.5"
+    ],
+    "evidence": [
+        "CPU=47.1 MEMORY=99.7 DISK=76.7",
+        "CPU=44.6 MEMORY=100.0 DISK=78.2",
+        "CPU=43.0 MEMORY=99.9 DISK=80.5",
+        "CPU=52.4 MEMORY=99.9 DISK=83.5",
+        "CPU=56.5 MEMORY=99.2 DISK=83.5"
+    ],
+    "data_source": "own-machine",
+    "severity": "HIGH",
+    "recommended_action": "Check running processes consuming memory",
+    "confidence": 0.85,
+    "needs_more_data": false
+}

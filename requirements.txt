@@ -1,0 +1,6 @@
+psutil
+fastapi
+uvicorn
+rich
+sqlite-utils
+requests
